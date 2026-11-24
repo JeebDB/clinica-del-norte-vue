@@ -1,38 +1,44 @@
-# clinica-del-norte-vue
+# Clínica del Norte (Vue)
 
-This template should help get you started developing with Vue 3 in Vite.
+Sitio web informativo de la **Clínica del Norte**, un policlínico de medicina general (entidad ficticia creada con fines de aprendizaje web). Es la migración a una aplicación de página única (SPA) con Vue.js de los dos avances anteriores hechos con HTML, CSS y JavaScript nativo.
 
-## Recommended IDE Setup
+**Aplicación en producción:** https://jeebdb.github.io/clinica-del-norte-vue/
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Funcionalidades
 
-## Recommended Browser Setup
+- Navegación sin recarga de página (Vue Router).
+- Catálogo de servicios cargado de un archivo JSON, con indicador de carga, manejo de errores (404, 500, sin conexión) y filtros por texto y categoría.
+- Página de detalle de cada servicio con servicios relacionados.
+- Formulario de contacto con validación reactiva en tiempo real y reglas de negocio (solo días hábiles, rango de fechas, nombre y apellido).
+- Solicitudes guardadas en el navegador (`localStorage`) con edición y eliminación, borrador automático del formulario y confirmación mediante modal.
+- Diseño adaptable (móvil, tablet y escritorio) con Bootstrap 5 y CSS Grid/Flexbox propio.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Tecnologías
 
-## Customize configuration
+Vue 3 (`<script setup>`), Vite, Vue Router 4, Pinia, Bootstrap 5.3 y Bootstrap Icons.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Arquitectura de carpetas
 
-## Project Setup
-
-```sh
-npm install
+```
+clinica-del-norte-vue/
+├── .github/workflows/deploy.yml   Despliegue continuo a GitHub Pages
+├── public/
+│   ├── data/servicios.json        Datos de los servicios
+│   └── img/                       Imágenes y favicon
+├── src/
+│   ├── assets/styles.css          Estilos propios
+│   ├── components/                Piezas reutilizables (NavBar, ServiceCard, FormField, ConfirmModal...)
+│   ├── data/clinica.js            Datos de contacto de la clínica
+│   ├── router/index.js            Rutas de la aplicación
+│   ├── stores/                    Estado compartido (Pinia): servicios y solicitudes
+│   ├── utils/                     Funciones de apoyo: rutas, fechas y validaciones
+│   ├── views/                     Una vista por página
+│   ├── App.vue                    Estructura general
+│   └── main.js                    Punto de entrada
+├── index.html
+└── vite.config.js
 ```
 
-### Compile and Hot-Reload for Development
+## Autor
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Tu nombre, estudiante de Ingeniería de Sistemas. Proyecto final de la asignatura (completar).
