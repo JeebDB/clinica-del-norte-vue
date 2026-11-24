@@ -25,21 +25,21 @@ const valores = [
 const medicos = [
   {
     id: 1,
-    nombre: 'Dr(a). Nombre 1',
+    nombre: 'Dr. John Doe',
     foto: 'img/medico1.jpg',
     alt: 'Retrato de Dr(a). Nombre 1',
     descripcion: 'Medicina general. Atención primaria y control de enfermedades crónicas.'
   },
   {
     id: 2,
-    nombre: 'Dr(a). Nombre 2',
+    nombre: 'Dra. Jane Doe',
     foto: 'img/medico2.jpg',
     alt: 'Retrato de Dr(a). Nombre 2',
     descripcion: 'Medicina general. Consulta externa y expedición de certificados médicos.'
   },
   {
     id: 3,
-    nombre: 'Dr(a). Nombre 3',
+    nombre: 'Dr. Joseph Doe',
     foto: 'img/medico3.jpg',
     alt: 'Retrato de Dr(a). Nombre 3',
     descripcion: 'Medicina general. Seguimiento de pacientes y exámenes básicos.'
