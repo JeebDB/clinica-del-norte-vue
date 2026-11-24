@@ -26,19 +26,19 @@ clinica-del-norte-vue/
 │   ├── data/servicios.json        Datos de los servicios
 │   └── img/                       Imágenes y favicon
 ├── src/
-│   ├── assets/styles.css          Estilos propios
-│   ├── components/                Piezas reutilizables (NavBar, ServiceCard, FormField, ConfirmModal...)
-│   ├── data/clinica.js            Datos de contacto de la clínica
-│   ├── router/index.js            Rutas de la aplicación
-│   ├── stores/                    Estado compartido (Pinia): servicios y solicitudes
-│   ├── utils/                     Funciones de apoyo: rutas, fechas y validaciones
-│   ├── views/                     Una vista por página
-│   ├── App.vue                    Estructura general
-│   └── main.js                    Punto de entrada
+│   ├── assets/styles.css          Estilos propios.
+│   ├── components/                Piezas reutilizables (NavBar, ServiceCard, FormField, ConfirmModal...).
+│   ├── data/clinica.js            Datos de contacto de la clínica.
+│   ├── router/index.js            Rutas de la aplicación.
+│   ├── stores/                    Estado compartido (Pinia): servicios y solicitudes.
+│   ├── utils/                     Funciones de apoyo: rutas, fechas y validaciones.
+│   ├── views/                     Una vista por página.
+│   ├── App.vue                    Estructura general.
+│   └── main.js                    Punto de entrada.
 ├── index.html
 └── vite.config.js
 ```
 
 ## Autor
 
-Tu nombre, estudiante de Ingeniería de Sistemas. Proyecto final de la asignatura (completar).
+Juan Esteban, Proyecto para Diseño web I.
