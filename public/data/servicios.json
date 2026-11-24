@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nombre": "Medicina general",
+    "categoria": "consulta",
+    "resumen": "Consulta de atención primaria para ti y tu familia, con valoración, diagnóstico y orientación médica.",
+    "descripcion": [
+      "La consulta de medicina general es la puerta de entrada a tu atención de salud. Un médico valora tu estado general, revisa tus síntomas y te orienta sobre el diagnóstico y el tratamiento que necesitas.",
+      "Es una consulta pensada para ti y tu familia, con tiempo suficiente para resolver tus dudas. Si tu caso lo requiere, te indicamos los siguientes pasos o los exámenes de apoyo necesarios."
+    ],
+    "duracion": "30 minutos",
+    "modalidad": "Presencial",
+    "imagen": "img/servicio-medicina-general.jpg",
+    "alt": "PLACEHOLDER: Consulta de medicina general"
+  },
+  {
+    "id": 2,
+    "nombre": "Control de enfermedades crónicas",
+    "categoria": "seguimiento",
+    "resumen": "Seguimiento periódico para mantener tu salud estable y prevenir complicaciones.",
+    "descripcion": [
+      "Este servicio está dirigido a pacientes que necesitan un control constante de su salud. Revisamos tu evolución, ajustamos las indicaciones médicas y resolvemos tus dudas en cada visita.",
+      "Con controles periódicos buscamos detectar a tiempo cualquier cambio y ayudarte a mantener una buena calidad de vida."
+    ],
+    "duracion": "30 minutos",
+    "modalidad": "Presencial",
+    "imagen": "img/servicio-cronicas.jpg",
+    "alt": "PLACEHOLDER:Toma de presion arterial"
+  },
+  {
+    "id": 3,
+    "nombre": "Exámenes básicos",
+    "categoria": "diagnostico",
+    "resumen": "Toma de exámenes de rutina en nuestras instalaciones, de forma rápida y segura.",
+    "descripcion": [
+      "Realizamos la toma de exámenes básicos de rutina en nuestras instalaciones, con personal capacitado y un proceso ágil.",
+      "Te indicamos las recomendaciones previas que debes seguir para que el resultado sea confiable."
+    ],
+    "duracion": "15 a 20 minutos",
+    "modalidad": "Presencial",
+    "imagen": "img/servicio-examenes.jpg",
+    "alt": "PLACEHOLDER: Tomas para examenes básicos"
+  },
+  {
+    "id": 4,
+    "nombre": "Certificados médicos",
+    "categoria": "tramites",
+    "resumen": "Expedición de certificados médicos para trabajo, estudio y otros trámites.",
+    "descripcion": [
+      "Expedimos certificados médicos para trabajo, estudio y otros trámites, previa valoración por parte de nuestro equipo médico.",
+      "Recuerda llevar tu documento de identidad y, si aplica, el formato que te solicitan."
+    ],
+    "duracion": "20 minutos",
+    "modalidad": "Presencial",
+    "imagen": "img/servicio-certificados.jpg",
+    "alt": "PLACEHOLDER: Certificado medico"
+  }
+]

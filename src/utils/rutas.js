@@ -1,0 +1,1 @@
+export const publico = (ruta) => `${import.meta.env.BASE_URL}${ruta}`
